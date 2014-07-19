@@ -2,7 +2,6 @@ package pl.eqtherm.config;
 
 import java.util.Properties;
 
-import pl.eqtherm.filter.AuthorizationFilter;
 import pl.eqtherm.filter.CharacterEncodingFilter;
 import pl.eqtherm.filter.GoogleAnalyticsFilter;
 import pl.eqtherm.servlet.MainServlet;
@@ -26,7 +25,6 @@ public class ServletConfig extends ServletModule {
 		PropertiesUtil.logAllProperties(props);
 		filter("/*").through(CharacterEncodingFilter.class);
 		filter("/*").through(GoogleAnalyticsFilter.class);
-		filter("/*").through(AuthorizationFilter.class);
 
 		serve("/").with(MainServlet.class);
 	}

@@ -22,10 +22,20 @@
 </head>
 <body>
 <div class="container">
-	<div class="row">
-		<div class="col-sm-9">
-			<h1>Main page</h1>
+	<div class="row" style="margin-top: 35px;">
+		<div class="col-sm-offset-1 col-sm-1">
+			<img alt="Logo" src="/images/logo.png"></img>
 		</div>
+		<div class="col-sm-offset-2 col-sm-10">
+			<ul class="nav nav-pills">
+	  			<li class="active"><a href="#">O NAS</a></li>
+	  			<li><a href="#">PRODUKTY</a></li>
+	  			<li><a href="#">USŁUGI</a></li>
+	  			<li><a href="#">KONTAKT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
 	</div>
 	<div class="row">
 	</div>

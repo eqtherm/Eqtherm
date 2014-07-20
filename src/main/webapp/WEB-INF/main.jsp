@@ -22,17 +22,20 @@
 </head>
 <body>
 <div class="container">
-	<div class="row" style="margin-top: 35px;">
-		<div class="col-sm-offset-1 col-sm-1">
-			<img alt="Logo" src="/images/logo.png"></img>
+	<div class="row nav-main-row">
+		<div class="col-sm-3">
+			<img class="nav-logo-image" alt="Logo" src="/images/logo.png"/>
 		</div>
-		<div class="col-sm-offset-2 col-sm-10">
-			<ul class="nav nav-pills">
+		<div class="col-sm-offset-1 col-sm-5">
+			<ul class="nav nav-pills nav-sections">
 	  			<li class="active"><a href="#">O NAS</a></li>
 	  			<li><a href="#">PRODUKTY</a></li>
 	  			<li><a href="#">USŁUGI</a></li>
 	  			<li><a href="#">KONTAKT</a></li>
 			</ul>
+		</div>
+		<div class="col-sm-offset-1 col-sm-2">
+			<img alt="" src="/images/alfalaval.jpg"/>
 		</div>
 	</div>
 	<div class="row">

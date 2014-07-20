@@ -6,6 +6,7 @@
 
 	<static-files>
 		<include path="/**.png" expiration="10d" />
+		<include path="/**.jpg" expiration="10d" />
 		<include path="/**.gif" expiration="10d" />
 		<include path="/**.css" expiration="5d" />
 		<include path="/**.js" expiration="5d" />
@@ -21,6 +22,6 @@
 	</system-properties>
 
 	<env-variables>
-		<env-var name="DEFAULT_ENCODING" value="UTF-8" />
+<!-- 		<env-var name="DEFAULT_ENCODING" value="UTF-8" /> -->
 	</env-variables>
 </appengine-web-app>

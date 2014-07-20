@@ -13,9 +13,6 @@
 
 	<script src="/js/jquery-1.11.1.min.js"></script>
 	<script src="/js/jquery-ui-1.10.4.min.js"></script>
-	<script src="/js/jquery.inputmask.bundle.min.js"></script>
-	<script src="/js/detect_timezone.js"></script>
-	<script src="/js/jquery.detect_timezone.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 
 	<title>Eqtherm</title>
